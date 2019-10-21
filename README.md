@@ -2,6 +2,7 @@
 Student Housing 
 
 Clone into the workspace that you use for labs/homeworks
+
 Master Branch - Must always function, rare commits should only occur at group meetings
 
 Develop Branch - Functioning Site with new features
