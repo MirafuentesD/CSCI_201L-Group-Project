@@ -15,18 +15,10 @@ body, html {
 	-o-background-size: cover;
 }
 
-header {
-	height: 20%;
-	width: 100%;;
-	background-color: white;
-	margin: 0 -80px;
-	padding: 15px 80px;
-}
-
 a:link, a:visited, a:hover, a:active {
-	font-size: 17px;
+	font-size: 15px;
+	opacity: 0.7;
 	color: white;
-	text-decoration: none;
 }
 
 .font {
@@ -36,7 +28,6 @@ a:link, a:visited, a:hover, a:active {
 
 .title {
 	font-size: 75px;
-	opacity: 0.9;
 	margin-bottom: 30px;
 }
 
@@ -64,43 +55,12 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .buttons {
-	
-}
-
-/* source: https://simplestepscode.com/css-glass-button-tutorial/ */
-.gradient {
-	background-color: black;
-	background-image: linear-gradient(black, #333333);
-	text-decoration: none;
+	width: 85%;
+	margin-top: 30px;
+	background-color: white;
 	font-size: 18px;
-	color: white;
-	text-shadow: 0px -1px #333;
-	opacity: 0.9;
-	border-color: black;
+	color: black;
+	opacity: 0.85;
 	border-radius: 4px;
-	box-shadow: 0px 1px 4px -2px #333;
 	padding: 10px 15px;
-	float: right;
-	display: inline-block;
-	position: relative;
-}
-
-.searchBar {
-	height: 40px;
-	width: 100%;
-	font-family: Helvetica;
-	font-size: 18px;
-	border-radius: 4px;
-	padding: 0px 10px;
-}
-
-.radioContainer {
-	padding-top: 20px;
-}
-
-.buttonContainer {
-	width: 50%;
-	padding: 3px 0px;
-	float: left;
-	display: inline-block;
 }
