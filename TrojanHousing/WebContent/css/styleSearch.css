@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0px 40px;
+}
+
+header {
+	height: 24.5%;
+	width: 100%;
+	background-color: white;
+	border-bottom: thin solid #d3d3d3;
+	margin: 0 -140px;
+	padding: 0px 140px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	font-size: 17px;
+	color: #454545;
+	text-decoration: none;
+}
+
+.img {
+	max-height: 205px;
+	width: auto;
+}
+
+.font {
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #454545;
+}
+
+.title {
+	font-size: 30px;
+	text-shadow: 2px 2px 8px gray;
+	padding: 20px 0px;
+
+}
+
+.subtitle {
+	font-size: 14px;
+}
+
+.bookTitle {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.author {
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.searchBar {
+	height: 30px;
+	width: 70%;
+	font-family: Helvetica;
+	font-size: 12px;
+	border-radius: 3px;
+	float: left;
+	display: inline-block;
+}
+
+.buttonContainer {
+	width: 14.2%;
+	padding: 3px 0px;
+	float: left;
+	display: inline-block;
+}
+
+/* source: https://simplestepscode.com/css-glass-button-tutorial/ */
+.gradient {
+	background-color: #d3d3d3;
+	background-image: linear-gradient(#d3d3d3, #a9a9a9);
+	height: 15px;
+	border-radius: 3px;
+	padding: 7.5px 20px;
+	float: left;
+	display: inline-block;
+	position: relative;
+}
+
+.headerContainer1 {
+	height: 100%;
+	width: 25%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}
+
+.headerContainer2 {
+	height: 100%;
+	width: 75%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}
+
+.headerContainer3 {
+	height: 100%;
+	width: 50%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}
+
+.mainContainer {
+	height: 75.5%;
+	padding: 40px 0px;
+}
+
+.formField {
+	height: 30px;
+	width: 100%;
+	margin-top: 5px;
+	font-family: Helvetica;
+	font-size: 12px;
+	border-radius: 3px;
+}
+
+.signin {
+	height: 45px;
+	width: 100.5%;
+	margin-top: 40px;
+	font-family: Helvetica;
+	font-size: 18px;
+	border-radius: 3px;
+	background-color: #a9a9a9;
+	color: white;
+}
