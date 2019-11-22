@@ -1,1 +1,51 @@
+body {
+	margin: 0;
+	padding: 0;
+}
 
+.header {
+	padding: 60px;
+	padding-top: 0;
+}
+
+.login {
+	padding: 100px;
+}
+
+.logo {
+	width: 20%;
+	height: 20%;
+}
+	
+.content {
+	background-image: url("uscmap.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+
+.content div {
+	padding-top: 120px;
+	padding-left: 100px;
+}
+
+.form-content h1 {
+	color: grey;
+	font-size: 50px;
+}
+
+.form-content input[type=text] {
+	width: 80%;
+	font-size: 24px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+}
