@@ -7,11 +7,11 @@
 		<title>HomePage</title>
 </head>
 
-<%
+<%-- <%
 	while(false){
 		out.println("hi");
 	}
-%>
+%> --%>
 
 <body>
 		<div class="header">
