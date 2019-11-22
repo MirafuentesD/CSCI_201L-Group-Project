@@ -7,14 +7,35 @@
 <title>Register</title>
 <link rel="stylesheet" type="text/css" href="css/styleSearch.css" />
 <script>
+
+// call showProfile on page load
+window.onload = function() {
+	showProfile();		
+}
+
+//determine if a user is logged to display profile link
+function showProfile() {
+	var username = "<%=(String) session.getAttribute("username")%>";
+	var html = "";
+	
+	if (username != "null") { // a user is logged in
+		html += "<a style=\"margin-right: 20px\" href=\"Profile.jsp\">Profile</a>";
+		html += "<a href=\"HomePage.jsp\">Sign Out</a>";
+	} else {
+		html += "<a style=\"margin-right: 20px\" href=\"Login.jsp\">Login</a>";
+		html += "<a href=\"Register.jsp\">Register</a>";
+	}
+	
+	document.getElementById("links").innerHTML = html;
+}
+
 </script>
 </head>
 <body class="font">
 	<header>
 		<img src="img/Tommy.png" height="150"> <span
 			style="font-size: 30px;">Trojan Housing</span>
-		<span id="links" style="float: right; margin-top: 5.5%;"><a style="margin-right: 20px" href="HomePage.jsp">Profile</a>
-			<a href="HomePage.jsp">Sign Out</a></span>
+		<span id="links" style="float: right; margin-top: 5.5%;"></span>
 	</header>
 	<div class="mainContainer">
 		<form name="searchForm" method="POST" action="SearchResults.jsp">
