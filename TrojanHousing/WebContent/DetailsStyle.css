@@ -1,0 +1,57 @@
+@charset "UTF-8";
+ 
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0px 40px;
+}
+ 
+header {
+    height: 24.5%;
+    width: 100%;
+    background-color: white;
+    border-bottom: thin dashed #d3d3d3;
+    margin: 0 -140px;
+    padding: 0px 140px;
+}
+/* .font {
+    font-family: "Helvetica", "Arial", sans-serif;
+    color: #454545;
+} */
+
+/*  #results {
+    font-family: "Helvetica";
+ 	font-weight: bold;
+ 	font-size: 5px;
+ } */
+.logo {
+ 	max-height: 160px;
+    min-height: 160px;
+    height: auto;
+    width: 160px;
+    /* padding: 20px; */
+}
+.property {
+	height: 200px;
+	width: 300px;
+	padding: 20px;
+}
+p {
+	font-size: 20px;
+}
+.fav {
+    height: 30px;
+    /* margin-top: 50px; */
+    background-color: #A9A9A9;
+    color: white;
+}
+#switch_buttons {
+	left: 80%;
+}
+.sbutton {
+	height: 30px;
+    /* margin-top: 50px; */
+    background-color: #A9A9A9;
+    color: white;
+}
