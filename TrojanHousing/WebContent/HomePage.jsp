@@ -1,35 +1,32 @@
- <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
-    pageEncoding="ISO-8859-1"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
 <head>
-		<link rel="stylesheet" href="HomePage.css">
-		<title>HomePage</title>
+<meta charset="UTF-8">
+<title>Trojan Housing</title>
+<link rel="stylesheet" type="text/css" href="css/styleHome.css" />
 </head>
-
-<%-- <%
-	while(false){
-		out.println("hi");
-	}
-%> --%>
-
-<body>
-		<div class="header">
-			<table>
-				<tr>
-					<td><img class="logo" src="trojan.png" /></td>
-				</tr>
-			</table>	
-			<form method="GET" action="Login.jsp" style = "float:right;margin-top:-100px;margin-right:100px;">
-				<input type="submit" name="Login" value = "Login">
-			</form> 
-			<form method="GET" action="Register.jsp" style = "float:right;margin-top:-100px;">
-				<input type="submit" name="Register" value = "Register">
-			</form> 
-			<form method="GET" action="Search.jsp" style = "float:right;margin-top:-50px;">
-				<input type="submit" name="Guest" value = "Continue As Guest">
-			</form> 
-			<h1>Trojan Housing</h1>
-			
+<body class="font" style="overflow: hidden">
+	<div class="leftContainer">
+		<div class="title">Trojan Housing</div>
+		<div class="subtitle">Don't just find a place to live,</div>
+		<div class="subtitle" style="margin-top: 5px;">find a home.</div>
+	</div>
+	<div class="rightContainer">
+		<div style="padding-left: 150px">
+			<form action="Login.jsp">
+				<input class="buttons" type="submit" name="login" value="Login" />
+			</form>
 		</div>
+		<div style="padding-left: 150px">
+			<form action="Register.jsp">
+				<input class="buttons" type="submit" name="register" value="Register" />
+			</form>
+		</div>
+		<div style="margin-top:30px; padding-left: 150px">
+			<a href="Search.jsp">Continue as guest</a>
+		</div>
+	</div>
+</body>
 </html>
