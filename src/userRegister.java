@@ -71,8 +71,7 @@ public class userRegister extends HttpServlet {
 					ps.setString(1, username);
 					ps.executeUpdate();
 					//set logged in attributes
-					session.setAttribute("loggedIn", true);
-					session.setAttribute("user", username);
+					session.setAttribute("username", username);
 				}
 				else {
 					pw.println("Passwords do not match.");

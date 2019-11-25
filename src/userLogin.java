@@ -46,8 +46,7 @@ public class userLogin extends HttpServlet {
 			rs = statement.executeQuery("SELECT * FROM Users WHERE username='"+username+"' AND password='" +password+"'");
 			boolean loggedIn = rs.next();
 			if(loggedIn) {
-				session.setAttribute("loggedIn", loggedIn);
-				session.setAttribute("user", username);
+				session.setAttribute("username", username);
 			}
 			else {
 				//display warning to user that the user they entered does not exist

@@ -8,20 +8,6 @@
 <script
     src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>	
 <script>
-    // validate search terms to make sure at least one term is entered
-    function validateSearch() {
-        var xhttp = new XMLHttpRequest();
-        xhttp.open("GET", "Validate?searchTerms="
-                + document.searchForm.searchTerms.value, false);
-        xhttp.send();
- 
-        if (xhttp.responseText.trim().length > 0) {
-            document.getElementById("errorSearch").innerHTML = xhttp.responseText;
-            return false;
-        }
-        return true;
-    }
- 
     // validate login information to make sure username exists and password is correct
 	function ValidateLogin(){
 		var xhttp = new XMLHttpRequest();
