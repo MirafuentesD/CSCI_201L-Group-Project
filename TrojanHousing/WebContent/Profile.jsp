@@ -6,16 +6,56 @@
 <meta charset="UTF-8">
 <title>Profile</title>
 <link rel="stylesheet" type="text/css" href="css/styleResults.css" />
+<script>
+	// call showLinks on page load
+	window.onload = function() {
+		showLinks();		
+	}
+	
+	// determine if a user is logged to display links
+	function showLinks() {
+		var username = "<%=(String) session.getAttribute("username")%>";
+		var html = "";
+	
+		if (username != "null") { // a user is logged in
+			html += "<a style=\"margin-right: 20px\" href=\"Profile.jsp\">Profile</a>";
+			html += "<a href=\"HomePage.jsp\" onclick=\"return signOut();\">Sign Out</a>";
+		} else { // no user logged in
+			html += "<a style=\"margin-right: 20px\" href=\"Login.jsp\">Login</a>";
+			html += "<a href=\"Register.jsp\">Register</a>";
+		}
+	
+		document.getElementById("links").innerHTML = html;
+	}
+	
+	function signOut() {
+		// call servlet to set session attribute username to null
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", "SignOut", false);
+		xhttp.send();
+		return true;
+	}
+</script>
 </head>
 <body class="font">
 	<header>
-		<img src="img/Tommy.png" height="150"> <span
-			style="font-size: 30px;">Trojan Housing</span> <span id="links"
-			style="float: right; margin-top: 5.5%;"><a
-			style="margin-right: 20px" href="HomePage.jsp">Sign Out</a></span>
+		<div class="headerContainer1">
+		<form action="Search.jsp">
+				<input
+					style="position: relative; display: inline-block; height: 125px"
+					type="image" src="img/Tommy.png" alt="Submit" />
+			</form>
+		</div>
+		<div class="headerContainer2">
+			<div class="title">Trojan Housing</div>
+			<div class="title2">Don't just find a place to live, find a home.</div>
+		</div>
+		<div class="headerContainer3">
+			<span id="links" style="float: right"></span>
+		</div>
 	</header>
 	<div>
-		<div class="title" style="text-align: center">username's
+		<div class="title3" style="text-align: center">username's
 			favorites:</div>
 		<div id="favorites">
 			<div class="resultContainer">
@@ -25,7 +65,7 @@
 					</form>
 				</div>
 				<div class="resultContainer2">
-					<div class="bookTitle">2147 W Adams Blvd</div>
+					<div class="address">2147 W Adams Blvd</div>
 					<div class="subtitle" style="padding-top: 20px">
 						<span style="font-weight: bold">Bedrooms: 4</span>
 					</div>
@@ -44,7 +84,7 @@
 					</form>
 				</div>
 				<div class="resultContainer2">
-					<div class="bookTitle">2718 Ellendale Pl</div>
+					<div class="address">2718 Ellendale Pl</div>
 					<div class="subtitle" style="padding-top: 20px">
 						<span style="font-weight: bold">Bedrooms: 3</span>
 					</div>

@@ -32,17 +32,29 @@ a:link, a:visited, a:hover, a:active {
 }
 
 .title {
+	font-size: 50px;
+	text-shadow: 0px 1px 8px #a9a9a9;
+}
+
+.title2 {
+	font-size: 15px;
+	font-color: #797979;
+	text-shadow: 0px 1px 8px #c0c0c0;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.title3 {
 	font-size: 30px;
 	text-shadow: 2px 2px 8px gray;
 	padding: 20px 0px;
-
 }
 
 .subtitle {
 	font-size: 14px;
 }
 
-.bookTitle {
+.address {
 	font-size: 25px;
 	margin-bottom: 5px;
 }
@@ -70,57 +82,38 @@ a:link, a:visited, a:hover, a:active {
 	display: inline-block;
 }
 
-/* source: https://simplestepscode.com/css-glass-button-tutorial/ */
-.gradient {
-	background-color: #d3d3d3;
-	background-image: linear-gradient(#d3d3d3, #a9a9a9);
-	height: 15px;
-	border-radius: 3px;
-	padding: 7.5px 20px;
-	float: left;
-	display: inline-block;
-	position: relative;
-}
-
 .headerContainer1 {
 	height: 100%;
-	width: 25%;
+	width: 15%;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	float: left;
 	display: inline-block;
+	padding-top: 2%;
+	text-align: center
 }
 
 .headerContainer2 {
 	height: 100%;
-	width: 75%;
+	width: 65%;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	float: left;
 	display: inline-block;
+	padding: 60px 0px;
 }
 
 .headerContainer3 {
 	height: 100%;
-	width: 45%;
+	width: 20%;
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
 	float: left;
 	display: inline-block;
-}
-
-.headerContainer4 {
-	height: 100%;
-	width: 10%;
-	padding-top: 8.5%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-	display: inline-block;
+	padding: 80px 0px;
 }
 
 .resultContainer {
