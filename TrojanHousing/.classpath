@@ -37,8 +37,6 @@
 	<classpathentry kind="lib" path="C:/Users/denil/Downloads/htmlunit-2.36.0-bin/htmlunit-2.36.0/lib/xml-apis-1.4.01.jar"/>
 	<classpathentry kind="lib" path="C:/Users/denil/Desktop/gson-2.8.0.jar"/>
 	<classpathentry kind="lib" path="C:/Users/denil/Downloads/json-20140107.jar"/>
-
->>>>>>> b6827538e6a0180ecf4548bf2a7c33014311e655
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
 	<classpathentry kind="lib" path="/Users/joshuasherman/eclipse-workspace/CSCI_201L-Group-Project/mysql-connector-java-5.1.46.jar"/>
 	<classpathentry kind="lib" path="/Users/joshuasherman/eclipse-workspace/CSCI_201L-Group-Project/mysql-socket-factory-1.0.15-jar-with-dependencies.jar"/>
