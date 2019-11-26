@@ -1,0 +1,150 @@
+@charset "UTF-8";
+
+body, html {
+	height: 100%;
+	margin: 0;
+	padding: 0px 40px;
+}
+
+header {
+	height: 24.5%;
+	width: 100%;
+	background-color: white;
+	border-bottom: thin solid #d3d3d3;
+	margin: 0 -140px;
+	padding: 0px 140px;
+}
+
+a:link, a:visited, a:hover, a:active {
+	font-size: 17px;
+	color: #454545;
+	text-decoration: none;
+}
+
+.img {
+	max-height: 205px;
+	width: auto;
+}
+
+.font {
+	font-family: "Helvetica", "Arial", sans-serif;
+	color: #454545;
+}
+
+.title {
+	font-size: 50px;
+	text-shadow: 0px 1px 8px #a9a9a9;
+}
+
+.title2 {
+	font-size: 15px;
+	font-color: #797979;
+	text-shadow: 0px 1px 8px #c0c0c0;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.title3 {
+	font-size: 30px;
+	text-shadow: 2px 2px 8px gray;
+	padding: 20px 0px;
+}
+
+.subtitle {
+	font-size: 14px;
+}
+
+.address {
+	font-size: 25px;
+	margin-bottom: 5px;
+}
+
+.author {
+	font-size: 20px;
+	font-style: italic;
+	margin-bottom: 10px;
+}
+
+.searchBar {
+	height: 30px;
+	width: 70%;
+	font-family: Helvetica;
+	font-size: 12px;
+	border-radius: 3px;
+	float: left;
+	display: inline-block;
+}
+
+.buttonContainer {
+	width: 50%;
+	padding: 3px 0px;
+	float: left;
+	display: inline-block;
+}
+
+.headerContainer1 {
+	height: 100%;
+	width: 15%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding-top: 2%;
+	text-align: center
+}
+
+.headerContainer2 {
+	height: 100%;
+	width: 65%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding: 60px 0px;
+}
+
+.headerContainer3 {
+	height: 100%;
+	width: 20%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding: 80px 0px;
+}
+
+.resultContainer {
+	height: 250px;
+	border-top: thin dashed #d3d3d3;
+	padding: 0px 20px;
+}
+
+.resultContainer1 {
+	height: 100%;
+	width: 40%;
+	padding:20px 30px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}
+
+.resultContainer2 {
+	height: 100%;
+	width: 60%;
+	padding: 20px;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+}
+
+.button {
+	height: 30px;
+	margin-top: 10px;
+}
