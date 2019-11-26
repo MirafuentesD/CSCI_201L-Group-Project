@@ -7,13 +7,35 @@
 <title>Profile</title>
 <link rel="stylesheet" type="text/css" href="css/styleResults.css" />
 <script>
+	// call showLinks on page load
+	window.onload = function() {
+		getUsername();
+		showFavorites();
+	}
+
 	function signOut() {
 		// call servlet to set session attribute username to null
-		var xhttp = new XMLHttpRequest();
+		/* var xhttp = new XMLHttpRequest();
 		xhttp.open("GET", "SignOut", false);
 		xhttp.send();
-		return true;
+		return true; */
 	}
+	
+	function getUsername() {
+		/* var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", "GetUsername", false);
+		xhttp.send();
+		
+		var username = xhttp.responseText();
+		
+		document.getElementById("username").innerHTML = username + "'s favorites:'"; */
+	}
+	
+	function showFavorites() {
+		
+	}
+	
+	
 </script>
 </head>
 <body class="font">
@@ -37,8 +59,7 @@
 		</div>
 	</header>
 	<div>
-		<div class="title3" style="text-align: center">username's
-			favorites:</div>
+		<div id="username" class="title3" style="text-align: center"></div>
 		<div id="favorites">
 			<div class="resultContainer">
 				<div class="resultContainer1">

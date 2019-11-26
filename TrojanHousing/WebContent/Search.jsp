@@ -46,7 +46,7 @@
 	}
 </script>
 </head>
-<body class="font" style="overflow: hidden">
+<body class="font">
 	<header>
 		<div class="headerContainer1">
 		<form action="Search.jsp">
