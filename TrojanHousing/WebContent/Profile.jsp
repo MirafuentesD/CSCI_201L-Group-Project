@@ -7,27 +7,6 @@
 <title>Profile</title>
 <link rel="stylesheet" type="text/css" href="css/styleResults.css" />
 <script>
-	// call showLinks on page load
-	window.onload = function() {
-		showLinks();		
-	}
-	
-	// determine if a user is logged to display links
-	function showLinks() {
-		var username = "<%=(String) session.getAttribute("username")%>";
-		var html = "";
-	
-		if (username != "null") { // a user is logged in
-			html += "<a style=\"margin-right: 20px\" href=\"Profile.jsp\">Profile</a>";
-			html += "<a href=\"HomePage.jsp\" onclick=\"return signOut();\">Sign Out</a>";
-		} else { // no user logged in
-			html += "<a style=\"margin-right: 20px\" href=\"Login.jsp\">Login</a>";
-			html += "<a href=\"Register.jsp\">Register</a>";
-		}
-	
-		document.getElementById("links").innerHTML = html;
-	}
-	
 	function signOut() {
 		// call servlet to set session attribute username to null
 		var xhttp = new XMLHttpRequest();
@@ -51,7 +30,10 @@
 			<div class="title2">Don't just find a place to live, find a home.</div>
 		</div>
 		<div class="headerContainer3">
-			<span id="links" style="float: right"></span>
+			<span id="links" style="float: right">
+				<a style="margin-right: 20px" href="Requests.jsp">Requests</a>
+				<a href="HomePage.jsp" onclick="return signOut();">Sign Out</a>
+			</span>
 		</div>
 	</header>
 	<div>
