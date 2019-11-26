@@ -2,91 +2,91 @@
     <wb-module deploy-name="TrojanHousing">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <dependent-module archiveName="xalan-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/xalan-2.7.2.jar">
+        <dependent-module archiveName="commons-lang3-3.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-lang3-3.9.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-lang3-3.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-lang3-3.9.jar">
+        <dependent-module archiveName="xalan-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/xalan-2.7.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="httpcore-4.4.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/httpcore-4.4.11.jar">
+        <dependent-module archiveName="commons-text-1.7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-text-1.7.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jetty-util-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/jetty-util-9.4.20.v20190813.jar">
+        <dependent-module archiveName="httpmime-4.5.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/httpmime-4.5.9.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-net-3.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-net-3.6.jar">
+        <dependent-module archiveName="serializer-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/serializer-2.7.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="htmlunit-core-js-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/htmlunit-core-js-2.36.0.jar">
+        <dependent-module archiveName="neko-htmlunit-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/neko-htmlunit-2.36.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jetty-http-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/jetty-http-9.4.20.v20190813.jar">
+        <dependent-module archiveName="commons-codec-1.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-codec-1.11.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="xml-apis-1.4.01.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/xml-apis-1.4.01.jar">
+        <dependent-module archiveName="jetty-client-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/jetty-client-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="websocket-client-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/websocket-client-9.4.20.v20190813.jar">
+        <dependent-module archiveName="websocket-api-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/websocket-api-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="httpclient-4.5.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/httpclient-4.5.9.jar">
+        <dependent-module archiveName="htmlunit-cssparser-1.5.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/htmlunit-cssparser-1.5.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jetty-xml-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/jetty-xml-9.4.20.v20190813.jar">
+        <dependent-module archiveName="httpcore-4.4.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/httpcore-4.4.11.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-text-1.7.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-text-1.7.jar">
+        <dependent-module archiveName="xercesImpl-2.12.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/xercesImpl-2.12.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="mysql-connector-java-5.1.46.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/mysql-connector-java-5.1.46.jar">
+        <dependent-module archiveName="jetty-http-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/jetty-http-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-io-2.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-io-2.6.jar">
+        <dependent-module archiveName="jetty-xml-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/jetty-xml-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="xercesImpl-2.12.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/xercesImpl-2.12.0.jar">
+        <dependent-module archiveName="jetty-util-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/jetty-util-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="htmlunit-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/htmlunit-2.36.0.jar">
+        <dependent-module archiveName="mysql-connector-java-5.1.46.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/mysql-connector-java-5.1.46.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="htmlunit-cssparser-1.5.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/htmlunit-cssparser-1.5.0.jar">
+        <dependent-module archiveName="websocket-common-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/websocket-common-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jetty-io-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/jetty-io-9.4.20.v20190813.jar">
+        <dependent-module archiveName="commons-net-3.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-net-3.6.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="mysql-socket-factory-1.0.15-jar-with-dependencies.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/mysql-socket-factory-1.0.15-jar-with-dependencies.jar">
+        <dependent-module archiveName="gson-2.8.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/gson-2.8.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="jetty-client-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/jetty-client-9.4.20.v20190813.jar">
+        <dependent-module archiveName="commons-io-2.6.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-io-2.6.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="httpmime-4.5.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/httpmime-4.5.9.jar">
+        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/commons-logging-1.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="gson-2.8.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/gson-2.8.0.jar">
+        <dependent-module archiveName="htmlunit-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/htmlunit-2.36.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-logging-1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-logging-1.2.jar">
+        <dependent-module archiveName="httpclient-4.5.9.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/httpclient-4.5.9.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="websocket-api-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/websocket-api-9.4.20.v20190813.jar">
+        <dependent-module archiveName="xml-apis-1.4.01.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/xml-apis-1.4.01.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="dec-0.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/dec-0.1.2.jar">
+        <dependent-module archiveName="htmlunit-core-js-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/htmlunit-core-js-2.36.0.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="commons-codec-1.11.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/commons-codec-1.11.jar">
+        <dependent-module archiveName="dec-0.1.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/dec-0.1.2.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="neko-htmlunit-2.36.0.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/neko-htmlunit-2.36.0.jar">
+        <dependent-module archiveName="mysql-socket-factory-1.0.15-jar-with-dependencies.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/mysql-socket-factory-1.0.15-jar-with-dependencies.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="websocket-common-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/websocket-common-9.4.20.v20190813.jar">
+        <dependent-module archiveName="websocket-client-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/websocket-client-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <dependent-module archiveName="serializer-2.7.2.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib//Users/joshuasherman/git/CSCI_201L-Group-Project/lib/serializer-2.7.2.jar">
+        <dependent-module archiveName="jetty-io-9.4.20.v20190813.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/C:/Users/denil/csci201/CSCI_201L-Group-Project/lib/jetty-io-9.4.20.v20190813.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
         <property name="context-root" value="TrojanHousing"/>
