@@ -11,7 +11,6 @@ body, html {
 	-o-background-size: cover;
 	background-size: cover;
 	-moz-background-size: cover;
-	overflow: hidden;
 }
 
 a:link, a:visited, a:hover, a:active {
@@ -64,6 +63,7 @@ a:link, a:visited, a:hover, a:active {
 	color: #454545;
 	opacity: 0.8;
 	border-radius: 2px;
+	border-color: #a9a9a9;
 	box-shadow: 1px 1px 20px 2px black;
 	padding: 10px 15px;
 }
@@ -78,6 +78,7 @@ a:link, a:visited, a:hover, a:active {
 	color: white;
 	opacity: 0.8;
 	border-radius: 2px;
+	border-color: #7A0000;
 	box-shadow: 1px 1px 20px 2px black;
 	padding: 10px 15px;
 }
