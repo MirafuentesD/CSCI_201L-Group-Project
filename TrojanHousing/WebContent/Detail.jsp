@@ -16,7 +16,60 @@
 }
 </style>
 </head>
+<script>
+//determine if a book is in user's favorites to display correct button
+// update html from ajax success function
+    /* function callback(html) {
+        document.getElementById("details").innerHTML = html;
+    }
+   
+    // call showProfile and update functions on page load
+    window.onload = function() {
+        showProfile();
+        update(callback);      
+    } */
 
+function favorite(add) {
+    var username = "<%=(String) request.getParameter("username")%>";
+    var bookID = "<%=(String) request.getParameter("id")%>";
+    var summary = "<%=(String) request.getParameter("summary")%>";
+    var type = "add";
+    if(!add) {
+        type = "remove";
+    }
+   
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "AddRemoveFavorite?type=" + type + "&username=" + username + "&propertyID=" + propertyID, false);
+    xhttp.send();
+   
+    if(xhttp.responseText.trim().length > 0) { // if user is not logged in, set error message
+        document.getElementById("errorButton").innerHTML = xhttp.responseText;
+    }
+   
+    if(document.getElementById("favoriteButton").innerHTML == "★ Favorite") {
+        document.getElementById("favoriteButton").innerHTML = "★ Remove";
+        document.getElementById("favoriteButton").setAttribute("onclick", "favorite(false)");
+    } else {
+        document.getElementById("favoriteButton").innerHTML = "★ Favorite";
+        document.getElementById("favoriteButton").setAttribute("onclick", "favorite(true)");
+    }
+}
+// update function to make Google Books API call
+function update(callback) {
+    // get parameters passed from previous page
+    var id = "<%=(String) request.getParameter("id")%>";
+    var username = "<%=(String) request.getParameter("username")%>";
+    var page = "<%=(String) request.getParameter("page")%>";
+   
+    var inFavorites = false;
+    var xhttp = new XMLHttpRequest();
+    xhttp.open("GET", "CheckFavorites?username=" + username, false);
+    xhttp.send();
+
+    if(xhttp.responseText.trim().length > 0) {
+        inFavorites = true;
+    }
+</script>
 <body class="font">
 	<header>
 		<div class="headerContainer1">
@@ -42,7 +95,8 @@
 					<p>Bedrooms: 4</p>
 					<p>Bathrooms: 2</p>
 					<p>Distance from campus: 0.5 miles</p>
-					<button class="fav">Favorite</button>
+					<button class="favoriteButton"></button>
+					<div id="errorButton"></div>
 				</td>
 			</tr>
 
