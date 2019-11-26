@@ -4,7 +4,7 @@
 <html>
 <head>
 <link href="https://cdnjs.cloudflare.com/ajax/libs/rateYo/2.3.2/jquery.rateyo.min.css" rel="stylesheet" />
-<link rel="stylesheet" href="css/DetailsStyle.css">
+<link rel="stylesheet" href="DetailsStyle.css">
 <meta charset="ISO-8859-1">
 <title>Details</title>
 <style>
@@ -21,7 +21,7 @@
 	<header>
 		<div class="headerContainer1">
 			<form action="Search.jsp">
-				<input style="position: relative; display: inline-block; height: 125px" type="image" src="img/Tommy.png" alt="Submit" />
+				<input style="position: relative; display: inline-block; height: 125px" type="image" src="Tommy.png" alt="Submit" />
 			</form>
 		</div>
 		<div class="headerContainer2">
