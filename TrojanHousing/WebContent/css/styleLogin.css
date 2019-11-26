@@ -15,9 +15,10 @@ header {
 	padding: 0px 140px;
 }
 
-.img {
-	max-height: 205px;
-	width: auto;
+a:link, a:visited, a:hover, a:active {
+	font-size: 17px;
+	color: #454545;
+	text-decoration: none;
 }
 
 .font {
@@ -26,9 +27,55 @@ header {
 }
 
 .title {
-	font-size: 30px;
-	text-shadow: 2px 2px 8px gray;
-	padding: 20px 0px;
+	font-size: 50px;
+	text-shadow: 0px 1px 8px #a9a9a9;
+}
+
+.title2 {
+	font-size: 15px;
+	font-color: #797979;
+	text-shadow: 0px 1px 8px #c0c0c0;
+	margin-top: 10px;
+	margin-left: 5px;
+}
+
+.headerContainer1 {
+	height: 100%;
+	width: 15%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding-top: 2%;
+	text-align: center
+}
+
+.headerContainer2 {
+	height: 100%;
+	width: 65%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding: 60px 0px;
+}
+
+.headerContainer3 {
+	height: 100%;
+	width: 20%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+	float: left;
+	display: inline-block;
+	padding: 80px 0px;
+}
+
+.img {
+	max-height: 205px;
+	width: auto;
 }
 
 .trojanHousing {
@@ -81,37 +128,6 @@ header {
 	float: left;
 	display: inline-block;
 	position: relative;
-}
-
-.headerContainer1 {
-	height: 100%;
-	width: 25%;
-	left: 5px;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-	display: inline-block;
-}
-
-.headerContainer2 {
-	height: 100%;
-	width: 75%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-	display: inline-block;
-}
-
-.headerContainer3 {
-	height: 100%;
-	width: 50%;
-	-moz-box-sizing: border-box;
-	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
-	float: left;
-	display: inline-block;
 }
 
 .mainContainer {

@@ -24,7 +24,7 @@ function ValidateRegister(){
 }
 
 </script>
-<body>
+<body class="font">
 	<header>
 		<div class="headerContainer1">
 		<form action="HomePage.jsp">

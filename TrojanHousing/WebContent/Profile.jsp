@@ -15,10 +15,11 @@
 
 	function signOut() {
 		// call servlet to set session attribute username to null
-		/* var xhttp = new XMLHttpRequest();
+		var xhttp = new XMLHttpRequest();
 		xhttp.open("GET", "SignOut", false);
 		xhttp.send();
-		return true; */
+		console.log("here")
+		return true;
 	}
 	
 	function getUsername() {

@@ -38,18 +38,30 @@
 	
 	// set action of form to details page of random property
 	function randomProperty() {
-		// uncomment lines
 		/* var randomPropertyID = 0 // get random property ID
-		var action = "Details.jsp?id=" + randomPropertyID */
-		var action = "Details.jsp" // delete line
+		var action = "Detail.jsp?propertyID=" + randomPropertyID */
+		var action = "Detail.jsp" // delete line
 		document.getElementById("feelingLucky").action = action;
+	}
+	
+	function validateSearch() {
+		var xhttp = new XMLHttpRequest();
+		xhttp.open("GET", "src/ValidateNumeric?price=" + document.searchForm.price.value, false);
+		xhttp.send();
+		
+		if(xhttp.responseText.trim().length > 0) {
+			document.getElementById("errorPrice").innerHTML = xhttp.responseText;
+			return false;
+		}
+		
+		return true;
 	}
 </script>
 </head>
 <body class="font">
 	<header>
 		<div class="headerContainer1">
-		<form action="Search.jsp">
+		<form action="HomePage.jsp">
 				<input
 					style="position: relative; display: inline-block; height: 125px"
 					type="image" src="img/Tommy.png" alt="Submit" />
@@ -64,8 +76,9 @@
 		</div>
 	</header>
 	<div class="mainContainer">
-		<form name="searchForm" method="GET" action="SearchResults.jsp">
-			<div class="subtitle">Price <span class="subtitle2">(per month)</span></div>
+		<form name="searchForm" method="GET" action="SearchResults.jsp" onclick="return validateSearch();">
+			<div class="subtitle">Maximum price <span class="subtitle2">(per month)</span><span id="errorPrice"
+					style="font-style: italic; font-size: 12px; color: red;"></span></div>
 			<input class="formField" type="text" name="price" /> <br />
 			
 			<div class="subtitle" style="margin-top: 25px">Bedrooms</div>
@@ -130,8 +143,8 @@
 				<span class="subtitle2">West</span>
 			</span> <br />
 			
-			<div class="subtitle" style="margin-top: 25px">Maximum distance from campus <span class="subtitle2">(miles)</span></div>
-			<input class="formField" type="text" name="distance" /> <br />
+			<!-- <div class="subtitle" style="margin-top: 25px">Maximum distance from campus <span class="subtitle2">(miles)</span></div>
+			<input class="formField" type="text" name="distance" /> <br /> -->
 			
 			<input class="normalButton" type="submit" name="search" value="Search" />
 		</form>
