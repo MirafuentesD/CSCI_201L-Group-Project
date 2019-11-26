@@ -2,6 +2,7 @@
     <wb-module deploy-name="TrojanHousing">
         <wb-resource deploy-path="/" source-path="/WebContent" tag="defaultRootSource"/>
 <<<<<<< HEAD
+
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <dependent-module archiveName="mysql-socket-factory-1.0.15-jar-with-dependencies.jar" deploy-path="/WEB-INF/lib" handle="module:/classpath/lib/Assignment-3/mysql-socket-factory-1.0.15-jar-with-dependencies.jar">
             <dependency-type>uses</dependency-type>
@@ -10,7 +11,7 @@
             <dependency-type>uses</dependency-type>
         </dependent-module>
 =======
->>>>>>> b6827538e6a0180ecf4548bf2a7c33014311e655
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
         <property name="context-root" value="TrojanHousing"/>
         <property name="java-output-path" value="/TrojanHousing/build/classes"/>
     </wb-module>
